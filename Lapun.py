@@ -57,7 +57,7 @@ plt.title(r'График показателя Ляпунова для систе
           fontsize=16, pad=20)
 
 plt.grid(True, alpha=0.3)
-plt.ylim(-2, 1)
+plt.ylim(-7, 1)
 
 # Добавляем пояснения с использованием LaTeX
 plt.text(0.02, 0.98, r'$\lambda > 0$: хаотическое поведение',
